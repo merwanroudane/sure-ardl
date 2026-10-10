@@ -1,0 +1,4 @@
+v 3
+d surardl -- Seemingly unrelated ARDL cointegration and bounds testing
+d Merwan Roudane (merwanroudane920@gmail.com)
+p surardl Seemingly unrelated ARDL (SUR-ARDL) estimation, bounds testing and cross-equation inference

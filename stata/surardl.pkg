@@ -1,0 +1,28 @@
+v 3
+d surardl: Seemingly unrelated ARDL cointegration and bounds testing
+d
+d  surardl estimates the seemingly unrelated autoregressive distributed lag
+d  (SUR-ARDL) model of Arif & Furuoka (2026), which embeds the Pesaran, Shin &
+d  Smith (2001) conditional error-correction specification in a Zellner (1962)
+d  SUR system and estimates it by feasible GLS. It reports the SUR bounds test
+d  for a long-run level relationship with tabulated (PSS 2001, Narayan 2005),
+d  simulated and residual-bootstrap critical values, long-run coefficients with
+d  delta-method, Fieller and bootstrap intervals, and cross-equation Wald tests
+d  for poolability and for equality of adjustment speeds and long-run
+d  coefficients. Journal-quality tables and figures are produced throughout.
+d
+d Version: 1.0.1
+d Requires: Stata version 14.0
+d Distribution-Date: 20261010
+d Author: Merwan Roudane
+d Support: email merwanroudane920@gmail.com
+d
+f surardl.ado
+f surardl_estat.ado
+f surardl_p.ado
+f surardl.sthlp
+f surardl_postestimation.sthlp
+f surardl_methods.sthlp
+f surardl_example.do
+f surardl_asean6.do
+f surardl_asean6.dta

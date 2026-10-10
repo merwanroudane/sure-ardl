@@ -1,0 +1,57 @@
+[theme]
+base = "light"
+
+# خط عربي واضح من Google Fonts
+font = "Tajawal:https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap"
+headingFont = "Tajawal:https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700;800&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+
+baseFontSize = 17
+headingFontSizes = ["34px", "27px", "22px", "19px", "17px", "15px"]
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+
+# لوحة ألوان فاتحة ومتعددة
+primaryColor = "#1D7A8C"
+backgroundColor = "#FEFCF7"
+secondaryBackgroundColor = "#F1F7F8"
+textColor = "#1B2A33"
+linkColor = "#176B87"
+borderColor = "#D8E3E6"
+codeBackgroundColor = "#F4F7F2"
+codeTextColor = "#2C4A33"
+
+redColor = "#D1495B"
+orangeColor = "#E08D3C"
+yellowColor = "#D9A520"
+greenColor = "#2E8B6F"
+blueColor = "#2A6F97"
+violetColor = "#7D5BA6"
+grayColor = "#5C6B73"
+
+chartCategoricalColors = [
+    "#1D7A8C", "#E08D3C", "#2E8B6F", "#D1495B",
+    "#7D5BA6", "#2A6F97", "#D9A520", "#5C6B73",
+]
+chartSequentialColors = [
+    "#F4FAFB", "#DCEEF1", "#C2E1E7", "#A3D2DB", "#80C1CD",
+    "#5CAFBE", "#3C9BAD", "#258799", "#157082", "#0B5767",
+]
+
+dataframeHeaderBackgroundColor = "#E8F2F4"
+dataframeBorderColor = "#D8E3E6"
+
+baseRadius = "10px"
+buttonRadius = "10px"
+showWidgetBorder = true
+showSidebarBorder = true
+linkUnderline = false
+
+[theme.sidebar]
+backgroundColor = "#F3F8F4"
+secondaryBackgroundColor = "#E6F0E9"
+textColor = "#1B2A33"
+primaryColor = "#1D7A8C"
+borderColor = "#D3E3D7"
+
+[server]
+runOnSave = true
